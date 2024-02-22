@@ -1,0 +1,724 @@
+        *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Poppins', sans-serif;
+        font-family: 'Work Sans', sans-serif;
+
+        }
+        .header{
+
+                min-height: 100vh;
+                width: 100%;
+                background-image:linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(images/banner.png);
+                background-position: center;
+                background-size: cover;
+                
+                }
+
+
+        nav{
+
+            display: flex;
+            padding: 20px 7%;
+            justify-content: space-between;
+            align-items: center;
+            
+
+        }
+        .logo{
+
+            width: 140px;
+        cursor: pointer;
+
+        }
+
+        .nav-links li{
+
+            list-style: none;
+            display: inline-block;
+            margin: 10px 30px;
+
+        }
+        .nav-links li a{
+            color: #fff;
+            text-decoration: none;
+        
+            }
+            
+        .regestier-btn{
+            text-decoration: none;
+            color: #000;
+            border-radius: 20px;
+            padding: 8px 20px;
+            font-size: 14px;
+            background: #fff;
+            
+        }
+
+        .container{
+            padding: 0 7%;
+        }
+        .container h1{
+        font-size: 4vw;
+        font-weight: 500;
+        color: #fff;
+        text-align: center;
+        padding-top: 22%;
+        }
+
+        .searc-bar{
+        background: #fff;
+        width: 70%;
+        margin: 30px auto;
+        padding: 6px 10px 6px 30px;
+        border-radius: 50px;
+        }
+        .searc-bar form{
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        }
+        .searc-bar form input{
+
+        display: block;
+        border: 0;
+        outline: none;
+        background: transparent;
+        }
+        .searc-bar form button{
+        background: #ff5361;
+        width: 55px;
+        height: 55px;
+        border-radius: 50px;
+        border: 0;
+        outline: none;
+        cursor: pointer;
+        }
+        .searc-bar form button img{
+        width: 15px;
+        margin-top: 7px;
+        }
+
+        .location-input{
+            flex: 1;
+        }
+        .searc-bar form label{
+        font-weight: 600;   
+        }
+
+        /*--------------------------Exculsive------------------------------*/
+
+        .sub-title{
+
+        margin: 50px 0 20px;
+        font-size: 2.2vw;
+        font-weight: 500;
+        color: #333;
+        }
+
+        .Exculsive{
+
+        display: grid;
+        grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+        grid-gap: 30px;
+
+        }
+
+        .Exculsive div img{
+        width: 100%;
+        border-radius: 10px;
+
+        }
+
+        .Exculsive div{
+            position: relative;
+        }
+        .Exculsive div span{
+
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        text-align: center;
+        color: #fff;
+        }
+        /*------------------------trending places----------------------------------*/
+
+        .treding{
+
+            display: grid;
+            grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+            grid-gap: 30px;
+        margin-bottom: 30px;
+
+        }
+
+        .treding div img{
+
+        width: 100%;
+        border-radius: 10px;
+        }
+
+        /*---------------------call to action---------------------------------------*/
+
+        .cta{
+
+            margin: 80px 0;
+            background:linear-gradient(to right, #3f2321, transparent), url(images/banner-2.png);
+            background-position: center;
+            background-size: cover;
+            border-radius: 10px;
+            padding: 5%;
+        color: #fff;
+        }
+
+        .cta h3{
+        font-size: 4vw;
+        font-weight: 500;
+        line-height: 5.3vw;
+        }
+        .cta p{
+        font-size: 18px;
+        margin: 10px 0;
+        }
+        .cta-btn{
+
+            display: inline-block;
+            text-decoration: none;
+            color: #fff;
+            border-radius: 8px;
+            padding: 12px 30px;
+            background: #ff5361;
+        margin-top: 20px;
+        }
+
+        /*-------------stories--------------------*/
+        .stories{
+
+            display: grid;
+            grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+            grid-gap: 30px;
+            margin-bottom: 30px;
+
+        }
+
+        .stories div img{
+
+        width: 100%;
+        border-radius: 10px;
+        }
+        .stories div{
+            text-align: center;
+            position: relative;
+        }
+        .stories p{
+        width: 80%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        color: #fff;
+        font-size: 26px;
+
+        }
+
+        .start-btn{
+                display: block;
+                text-decoration: none;
+                color: #fff;
+                border-radius: 30px;
+                padding: 15px;
+                font-size: 20px;
+                background: #ff5361;
+                width: 80%;
+                max-width: 350px;
+                text-align: center;
+                margin: 60px auto;
+
+        }
+
+
+        /*--------------about-msg----------------*/
+
+        .about-msg{
+
+        text-align: center;
+        margin: 80px 0;
+        color: #333;
+        font-size: 17px;
+        }
+        .about-msg h2{
+
+        font-size:28px;
+        font-weight: 500;
+        margin-bottom: 30px;
+        }
+        /*-----------------------------footer----------------------------------*/
+
+        .footer{
+            margin: 80px 0 10px;
+            text-align: center;
+        }
+        .footer a{
+
+        text-decoration: none;
+        font-size: 22px;
+        margin: 0 10px;
+        color: #999;
+        }
+        .footer hr{
+
+        background: #999;
+        width: 100px;
+        height: 1px;
+        margin: 20px 0;
+        border: 0;
+        }
+
+        .footer p{
+
+        padding-bottom: 15px;
+
+        }
+        .active{
+
+        position: relative;
+        }
+        .active::after{
+            content: '';
+            background: #fff;
+            width: 25px;
+            height: 2px;
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            bottom:-12px;
+            border-radius: 2px;
+            }
+        
+        nav .fa-bars{
+            display: none;
+        }
+        /*------------------------mediaq------------------------------*/
+        @media only screen and (max-width: 700px){
+            .logo{
+                position: fixed;
+                top: 4%;     
+                left: 7%;
+        }
+        nav{
+            position: fixed;
+
+            top: 0;
+            z-index: 100;
+            display: inline-block;
+            width: 100%;
+            padding: 100px 7% 0;
+            background: #000;
+            text-align: right;
+            max-height: 100px;
+            overflow: hidden;
+            transition: max-height 0.5s;
+        }
+
+        nav .nav-links li{
+            display: block;
+            margin: 10px 0;
+            
+            }
+            .regestier-btn{
+
+                margin: 15px 0 30px;
+                display: inline-block;
+                }
+
+                nav .fa-bars{
+                    display: block;
+                    position: fixed;
+                    top: 4%;
+                    right: 7%;
+                    color: #fff;
+                    font-size: 28px;
+                    }
+
+                    .active::after{
+
+                        left: -40px;
+                        transform: translate(0, 50%);
+                        bottom: 50%;
+                        }
+
+        .hidemenu{
+            max-height: 300px;
+        }
+        .header h1{
+
+        padding-top: 200px;
+        font-size: 7vw;
+
+
+        }
+        .searc-bar{
+        width: 90%;
+        margin: 30px auto;
+        padding: 20px 10px 10px;
+        border-radius: 5px;
+        position: relative;
+        }
+
+        .searc-bar form{
+            display: block;
+            height: 270px;
+        }
+        .searc-bar form input{
+        border-bottom: 1px solid #ddd;
+        width: 100%;
+        margin-bottom: 20px;
+        margin-top: 10px;
+        padding-bottom: 10px;
+        }
+
+        .searc-bar form button{
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translate(-50%,-50%);
+
+
+        }
+
+        .sub-title{
+        font-size: 6vw;
+
+
+        }
+
+        .cta{
+        padding: 15% 5%;
+
+        }
+        .cta h3{
+
+            font-size: 7vw;
+            line-height: 8vw;
+        }
+        .cta p{
+            font-size: 14px;
+        }
+        .cta-btn{
+
+            padding: 6px 15px;
+            border-radius: 4px;
+            margin-top: 10px;
+            font-size: 14px;
+        }
+        .stories p{
+        font-size: 22px;
+
+        }
+
+        .about-msg{
+            font-size: 15px;
+        }
+
+        nav .navbar-white .fa-bars{
+            color: #000;
+
+
+        }
+        nav .fa-bars {
+            display: block;
+            position: fixed;
+            top: 4%;
+            right: 7%;
+            color: #fff;
+            font-size: 28px;
+
+        }
+
+
+
+
+        }
+        /*------------------------------listing page-------------------------------------*/  
+        
+            
+            .navbar-white{
+
+            background: #fff;
+            box-shadow: 0 5px 10px rgba(0, 0, 0, 0.05);
+
+
+            }
+            .navbar-white .nav-links li a{
+                color: #000;
+                
+            
+                }
+
+        .navbar-white .regestier-btn{
+                    background: #ff5361;
+                    color: #fff;
+
+        }
+
+                nav .navbar-white .fa-bars{
+                    color: #000;
+
+
+                }
+
+                .navbar-white .active::after{
+            background: #ff5361;
+
+                }
+
+                .list-container{
+            margin-top: 50px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+
+                }
+            .lift-col{
+                    flex-basis: 70%;
+                }
+
+
+
+              
+
+            .right-col{
+                    flex-basis: 25%;
+                }
+                .lift-col h1{
+
+            color: #333;
+            font-weight: 600;
+            margin-bottom: 30px;
+
+                }
+
+                .house{
+
+                    display: flex;
+                    justify-content: space-between;
+                    flex-wrap: wrap;
+                    padding: 30px 0;
+                    border-top: 1px solid #ccc;
+
+                    }
+                .house-image{
+                flex-basis: 40%;
+                }      
+                .house-info{
+                    flex-basis: 58%;
+                    color: #555;
+                }
+                .house-image img{
+                            width: 100%;
+                            border-radius: 12px;
+                }     
+
+                                    .house-info h3{
+
+                            font-weight: 600;
+                            color: #333;
+                            font-size: 22px;
+                            margin: 4px 0;
+          }
+
+          .house-info i{
+
+                                color: #ff5361;
+                                font-size: 18px;
+                                margin: 10px 1px;
+                     }
+
+
+            .house-price{
+
+                text-align: right;
+            }
+
+            .house-price h4{
+                font-size: 20px;
+            }
+
+            .house-price h4 span{
+                                        font-size: 16px;
+                                        font-weight: 500;
+            }
+
+
+
+.side-bar{
+
+border: 1px solid #999;
+padding: 20px 30px;
+margin-top: 30px;
+}
+
+.side-bar h2{
+font-weight: 500;
+
+}
+
+.side-bar h3{
+    font-weight: 500;
+    margin: 20px 0 10px;
+    }
+
+.Filter{
+display: flex;
+align-items: center;
+color: #555;
+margin-bottom: 10px;
+
+}
+
+.Filter p{
+    flex: 1;
+}
+
+.Filter input{
+
+margin-right: 15px;
+cursor: pointer;
+}
+.sidebar-links{
+text-align: right;
+margin: 20px 0;
+
+}
+.sidebar-links a{
+
+text-decoration: none;   
+}
+
+.pagnaition{
+display: flex;
+align-items: center;
+justify-content: center;
+margin: 40px 0;
+}
+
+.pagnaition img{
+    width: 15px;
+    margin: 10px 20px;
+} 
+
+.right-arrow{
+
+transform: rotate(180deg);
+
+}
+.pagnaition span{
+
+margin: 10px 8px;
+width: 40px;
+height: 40px;
+line-height: 40px;
+text-align: center;
+border-radius: 50%;
+cursor: pointer;
+
+}
+.pagnaition .current{
+background: #333;
+color: #fff;
+
+}
+
+/*-----------------------listing page---for small-screen---------------------------*/
+@media only screen and (max-width: 700px){
+.list-container{
+
+margin-top: 150px;
+
+
+}
+
+.lift-col, .right-col, .house-image, .house-info{
+
+flex-basis: 100%;
+}
+.lift-col h2{
+font-size: 22px;
+
+
+}
+
+.house-info h3{
+
+  font-size: 18px;  
+}
+
+.house-info i{
+
+font-size: 16px;
+
+}
+
+.pagnaition span{
+margin: 10px 2px;
+width: 30px;
+height: 30px;
+line-height: 30px;
+font-size: 12px;
+}
+
+
+}
+
+/*---------------------------------house-details-----------------------------------------*/
+
+.house-details{
+            padding: 0 12%;
+               }
+
+.house-titl{
+           margin-top: 50px;
+}
+.house-titl h1{
+
+           font-weight: 600;   
+}
+.house-titl .row{
+
+            display: flex; 
+            flex-wrap: wrap;
+            align-items: center;
+            margin: 10px 0;
+}
+
+.house-titl span{
+            margin: 0 20px;
+
+
+}
+.house-titl .row i{
+
+            color: #ff5361;
+            font-size: 14px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
